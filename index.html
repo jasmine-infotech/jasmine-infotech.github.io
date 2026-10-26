@@ -460,6 +460,8 @@ h4 { font-size: 1.05rem; margin-bottom: 0.3rem; }
   font-size: 0.88rem;
 }
 .to-top:hover { color: var(--white); }
+.footer-legal { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.footer-legal a:hover { color: var(--white); }
 
 /* ---------- Reveal animation ---------- */
 .js .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -903,6 +905,10 @@ project.<span class="f">deploy</span>(); <span class="c">// 🚀 live in product
     </div>
     <div class="container footer-bottom">
       <p>© <span id="year"></span> Jasmine Infotech. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal">
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="refund-policy.html">Refund &amp; Cancellation Policy</a>
+      </nav>
       <a href="#home" class="to-top">Back to top ↑</a>
     </div>
   </footer>
